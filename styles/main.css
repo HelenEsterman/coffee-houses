@@ -1,0 +1,12 @@
+.shop {
+    border: 2.3px dotted black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
