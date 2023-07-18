@@ -1,12 +1,19 @@
-.shop {
-    border: 2.3px dotted black;
+.pageHeader {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
 }
 
 .list {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-evenly;
+} 
+
+.shop {
+    border: 2.3px dotted black;
+    flex-basis: 30%;
 }
+
